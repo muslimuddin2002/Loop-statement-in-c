@@ -1,0 +1,6 @@
+The syntax of the for loop is
+
+for (initializationStatement;test/condition Expression;update/iteration/inc or dec statement)
+{
+    // statements inside the body of loop
+}
