@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int i, j, sum = 0;
+    printf("Enter the start of range: ");
+    scanf("%d", &i);
+    printf("Enter the end of range: ");
+    scanf("%d", &j);
+    for (i=1;i<=j; i++) {
+        sum += i;
+    }
+    printf("Sum of natural numbers from %d to %d is: %d\n", i, j, sum);
+
+    return 0;
+}
